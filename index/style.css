@@ -1,0 +1,273 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: alegreya sans;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 200px;
+}
+
+
+nav ul li {
+    color: #ffffff;
+    text-transform: uppercase;
+    list-style: none;
+    position: relative;
+    float: left;
+    padding-right: 25px;
+    margin-top: 0px;
+}
+
+nav ul li a{
+    color: #000000;
+    list-style: none;
+}
+
+nav ul li a:active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #4a7026;
+    height: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.banner {
+    background-color: #ccc;
+    height: 300px;
+    margin: 20px 30;
+    
+}
+
+
+.ambientes {
+text-align: center;
+
+}
+
+.t1 h1 {
+color: #000000;
+margin: 10px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0;
+}
+
+.galeria img {
+    width: 270px;
+    height: 270px; 
+    margin: 0 10px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+
+.conteudo {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+    background-color: #888;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.texto p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.contato {
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    
+    
+    
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #218838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px; 
+}
+
+.item img {
+    width: 100%; 
+    height: auto; 
+}
+
+.descricao {
+    padding: 10px;
+}
+
+.descricao h2 {
+    margin: 0;
+}
+
+.descricao p {
+    margin: 5px 0;
+}
+
+.descricao span {
+    font-weight: bold;
+    color: #28a745; 
+}
+
+
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.section img {
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.section .text {
+    width: 50%;
+    margin-left: 2%;
+}
+
+.section .text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #218838;
+}
+
+.section .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
